@@ -1,0 +1,21 @@
+# dependencies
+/stackoverflow-clone/node_modules
+/stackoverflow-clone/.pnp
+/stackoverflow-clone/.pnp.js
+
+# testing
+/stackoverflow-clone/coverage
+
+# production
+/stackoverflow-clone/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+/stackoverflow-clone/npm-debug.log*
+/stackoverflow-clone/yarn-debug.log*
+/stackoverflow-clone/yarn-error.log*
