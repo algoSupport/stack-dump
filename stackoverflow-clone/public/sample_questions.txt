@@ -1,0 +1,880 @@
+[
+    {
+        "tags": [
+            "r",
+            "function",
+            "loops",
+            "sequence"
+        ],
+        "owner": {
+            "account_id": 14341126,
+            "reputation": 875,
+            "user_id": 10359295,
+            "user_type": "registered",
+            "profile_image": "https://www.gravatar.com/avatar/1f6f0e92dc8580443e5c5c07f03d2065?s=128&d=identicon&r=PG&f=1",
+            "display_name": "Alex",
+            "link": "https://stackoverflow.com/users/10359295/alex"
+        },
+        "is_answered": true,
+        "view_count": 66,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628257435,
+        "answer_count": 4,
+        "score": 1,
+        "last_activity_date": 1627738853,
+        "creation_date": 1626966837,
+        "last_edit_date": 1627028348,
+        "question_id": 68487351,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68487351/iterate-sequentially-over-two-lists-in-r",
+        "title": "Iterate sequentially over two lists in R"
+    },
+    {
+        "tags": [
+            "javascript",
+            "python",
+            "flask"
+        ],
+        "owner": {
+            "account_id": 7456438,
+            "reputation": 129,
+            "user_id": 5669565,
+            "user_type": "registered",
+            "accept_rate": 96,
+            "profile_image": "https://www.gravatar.com/avatar/3216b282fa4582c3c58d2f525ca6ca88?s=128&d=identicon&r=PG&f=1",
+            "display_name": "Daniel",
+            "link": "https://stackoverflow.com/users/5669565/daniel"
+        },
+        "is_answered": true,
+        "view_count": 62,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628265726,
+        "answer_count": 1,
+        "score": 0,
+        "last_activity_date": 1627738429,
+        "creation_date": 1627311010,
+        "last_edit_date": 1627737649,
+        "question_id": 68532018,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68532018/using-ajax-javascript-to-call-python-flask-function-with-return-to-javascript",
+        "title": "Using AJAX, JavaScript to call python flask function with return to JavaScript"
+    },
+    {
+        "tags": [
+            "php",
+            "laravel",
+            "laravel-5.8",
+            "maatwebsite-excel",
+            "laravel-excel"
+        ],
+        "owner": {
+            "account_id": 14541191,
+            "reputation": 207,
+            "user_id": 10502851,
+            "user_type": "registered",
+            "profile_image": "https://www.gravatar.com/avatar/e0923eea4ed421a4e787df82a18e365b?s=128&d=identicon&r=PG&f=1",
+            "display_name": "cerealikaeme",
+            "link": "https://stackoverflow.com/users/10502851/cerealikaeme"
+        },
+        "is_answered": false,
+        "view_count": 21,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628342990,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1627738190,
+        "creation_date": 1626584148,
+        "last_edit_date": 1627738143,
+        "question_id": 68426134,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68426134/laravelexcel-takes-too-much-of-time-and-not-exporting-any-data",
+        "title": "LaravelExcel Takes Too Much of Time and Not Exporting Any Data"
+    },
+    {
+        "tags": [
+            "php",
+            "laravel",
+            "laravel-5.8",
+            "maatwebsite-excel",
+            "laravel-excel"
+        ],
+        "owner": {
+            "account_id": 12823159,
+            "reputation": 266,
+            "user_id": 9277271,
+            "user_type": "registered",
+            "accept_rate": 60,
+            "profile_image": "https://www.gravatar.com/avatar/2d79097dff5c08888b98c9c0aa7eb4d9?s=128&d=identicon&r=PG&f=1",
+            "display_name": "tejoslaeslio",
+            "link": "https://stackoverflow.com/users/9277271/tejoslaeslio"
+        },
+        "is_answered": true,
+        "view_count": 22,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628338822,
+        "accepted_answer_id": 68602246,
+        "answer_count": 1,
+        "score": 1,
+        "last_activity_date": 1627737985,
+        "creation_date": 1627286490,
+        "last_edit_date": 1627737985,
+        "question_id": 68526349,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68526349/laravelexcel-interface-app-exports-formview-not-found",
+        "title": "LaravelExcel: Interface &#39;App\\Exports\\FormView&#39; not found"
+    },
+    {
+        "tags": [
+            "python-3.x"
+        ],
+        "owner": {
+            "account_id": 22237581,
+            "reputation": 35,
+            "user_id": 16472631,
+            "user_type": "registered",
+            "profile_image": "https://lh3.googleusercontent.com/a/AATXAJxiavpNjOW1jl9FW0k4HU-tdqZn6Rah9c2CxPiM=k-s128",
+            "display_name": "user16472631",
+            "link": "https://stackoverflow.com/users/16472631/user16472631"
+        },
+        "is_answered": false,
+        "view_count": 29,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628342209,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1627737409,
+        "creation_date": 1627561957,
+        "question_id": 68576009,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68576009/how-to-make-print-at-right-side-of-screen",
+        "title": "How to make print at right side of screen?"
+    },
+    {
+        "tags": [
+            "python",
+            "json"
+        ],
+        "owner": {
+            "account_id": 8263746,
+            "reputation": 71,
+            "user_id": 10972216,
+            "user_type": "registered",
+            "profile_image": "https://lh4.googleusercontent.com/-iEF4RYsg-pQ/AAAAAAAAAAI/AAAAAAAAChs/KacWLu1a4j0/photo.jpg?sz=128",
+            "display_name": "HASAN H&#220;SEYİN Y&#220;CEL",
+            "link": "https://stackoverflow.com/users/10972216/hasan-h%c3%9csey%c4%b0n-y%c3%9ccel"
+        },
+        "is_answered": true,
+        "view_count": 82,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1627883395,
+        "accepted_answer_id": 68541666,
+        "answer_count": 3,
+        "score": -2,
+        "last_activity_date": 1627736491,
+        "creation_date": 1626721315,
+        "last_edit_date": 1627365474,
+        "question_id": 68445714,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68445714/how-to-get-json-data-of-product-detail-from-website",
+        "title": "How to get json data of product detail from website?"
+    },
+    {
+        "tags": [
+            "amazon-ec2",
+            "rabbitmq",
+            "on-premises-instances"
+        ],
+        "owner": {
+            "account_id": 4531499,
+            "reputation": 1367,
+            "user_id": 3740673,
+            "user_type": "registered",
+            "accept_rate": 91,
+            "profile_image": "https://www.gravatar.com/avatar/4ad02d9f9abe251c447a9d1abf21bb9a?s=128&d=identicon&r=PG&f=1",
+            "display_name": "Kevin192291",
+            "link": "https://stackoverflow.com/users/3740673/kevin192291"
+        },
+        "is_answered": false,
+        "view_count": 17,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628338847,
+        "answer_count": 0,
+        "score": 1,
+        "last_activity_date": 1627734047,
+        "creation_date": 1625864358,
+        "question_id": 68322644,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68322644/rabbitmq-on-prem-clustered-with-an-aws-instance",
+        "title": "RabbitMQ on prem clustered with an AWS instance"
+    },
+    {
+        "tags": [
+            "jakarta-ee",
+            "dependency-injection"
+        ],
+        "owner": {
+            "account_id": 21514,
+            "reputation": 421,
+            "user_id": 52371,
+            "user_type": "registered",
+            "accept_rate": 100,
+            "profile_image": "https://www.gravatar.com/avatar/508bb31cd1d8fb6c444a1e35fca31c04?s=128&d=identicon&r=PG",
+            "display_name": "cornergraf",
+            "link": "https://stackoverflow.com/users/52371/cornergraf"
+        },
+        "is_answered": false,
+        "view_count": 20,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628338344,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1627733544,
+        "creation_date": 1624776160,
+        "question_id": 68148653,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68148653/unable-to-inject-httpservletrequest-into-jakarta-rest-service-resource",
+        "title": "Unable to inject HttpServletRequest into jakarta rest service resource"
+    },
+    {
+        "tags": [
+            "php",
+            "laravel",
+            "git",
+            "pre-commit-hook",
+            "phpcs"
+        ],
+        "owner": {
+            "account_id": 953086,
+            "reputation": 8551,
+            "user_id": 978866,
+            "user_type": "registered",
+            "accept_rate": 50,
+            "profile_image": "https://i.stack.imgur.com/hJqzZ.jpg?s=128&g=1",
+            "display_name": "Bhumi Shah",
+            "link": "https://stackoverflow.com/users/978866/bhumi-shah"
+        },
+        "is_answered": false,
+        "view_count": 34,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628338116,
+        "answer_count": 0,
+        "score": -1,
+        "last_activity_date": 1627733316,
+        "creation_date": 1627538561,
+        "last_edit_date": 1627587171,
+        "question_id": 68570839,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68570839/git-pre-commit-hook-for-phpcs-is-giving-me-error-in-windows-for-laravel",
+        "title": "Git Pre-Commit hook for PHPCS is giving me error in Windows for Laravel"
+    },
+    {
+        "tags": [
+            "python",
+            "sorting",
+            "dictionary"
+        ],
+        "owner": {
+            "account_id": 19345270,
+            "reputation": 336,
+            "user_id": 14843068,
+            "user_type": "registered",
+            "profile_image": "https://www.gravatar.com/avatar/d01b42342424b4ae3e8855ebf92bf495?s=128&d=identicon&r=PG&f=1",
+            "display_name": "CrossLord",
+            "link": "https://stackoverflow.com/users/14843068/crosslord"
+        },
+        "is_answered": false,
+        "view_count": 66,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628333569,
+        "answer_count": 1,
+        "score": 0,
+        "last_activity_date": 1627733237,
+        "creation_date": 1627554644,
+        "last_edit_date": 1627731937,
+        "question_id": 68574303,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68574303/sort-a-python-dictionary-within-a-dictionary",
+        "title": "Sort a Python dictionary within a dictionary"
+    },
+    {
+        "tags": [
+            "python",
+            "image",
+            "opencv",
+            "computer-vision",
+            "image-stitching"
+        ],
+        "owner": {
+            "account_id": 16771049,
+            "reputation": 233,
+            "user_id": 12123463,
+            "user_type": "registered",
+            "profile_image": "https://www.gravatar.com/avatar/55f3d4fe721fde81134c5d9f23d56152?s=128&d=identicon&r=PG&f=1",
+            "display_name": "ganesh",
+            "link": "https://stackoverflow.com/users/12123463/ganesh"
+        },
+        "is_answered": false,
+        "view_count": 37,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628337086,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1627732676,
+        "creation_date": 1627496245,
+        "last_edit_date": 1627732676,
+        "question_id": 68565531,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68565531/remove-black-dashed-lines-from-image-stitching",
+        "title": "remove black dashed lines from image stitching"
+    },
+    {
+        "tags": [
+            "r",
+            "dataframe",
+            "ansi-colors",
+            "crayon"
+        ],
+        "owner": {
+            "account_id": 1109341,
+            "reputation": 49606,
+            "user_id": 1100107,
+            "user_type": "registered",
+            "accept_rate": 80,
+            "profile_image": "https://www.gravatar.com/avatar/8789d3da0b482bcd8e562bfdf3687c74?s=128&d=identicon&r=PG",
+            "display_name": "St&#233;phane Laurent",
+            "link": "https://stackoverflow.com/users/1100107/st%c3%a9phane-laurent"
+        },
+        "is_answered": false,
+        "view_count": 39,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628335801,
+        "answer_count": 0,
+        "score": 3,
+        "last_activity_date": 1627731001,
+        "creation_date": 1626975038,
+        "last_edit_date": 1627730965,
+        "question_id": 68489214,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68489214/how-to-print-a-r-dataframe-with-colors",
+        "title": "How to print a R dataframe with colors?"
+    },
+    {
+        "tags": [
+            "angular",
+            "angular10"
+        ],
+        "owner": {
+            "account_id": 8158979,
+            "reputation": 95,
+            "user_id": 6143573,
+            "user_type": "registered",
+            "profile_image": "https://lh5.googleusercontent.com/-pbEVGZsAtcg/AAAAAAAAAAI/AAAAAAAACpM/kTlTEv8bEwI/photo.jpg?sz=128",
+            "display_name": "Ritesh Maharjan",
+            "link": "https://stackoverflow.com/users/6143573/ritesh-maharjan"
+        },
+        "is_answered": false,
+        "view_count": 260,
+        "bounty_amount": 500,
+        "bounty_closes_date": 1628174340,
+        "answer_count": 3,
+        "score": 2,
+        "last_activity_date": 1627730379,
+        "creation_date": 1609840649,
+        "last_edit_date": 1609937453,
+        "question_id": 65576630,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/65576630/auto-reload-for-clients-after-deploy-with-angular-10",
+        "title": "Auto reload for clients after deploy with Angular 10"
+    },
+    {
+        "tags": [
+            "php",
+            "laravel",
+            "laravel-5.8"
+        ],
+        "owner": {
+            "account_id": 12823159,
+            "reputation": 266,
+            "user_id": 9277271,
+            "user_type": "registered",
+            "accept_rate": 60,
+            "profile_image": "https://www.gravatar.com/avatar/2d79097dff5c08888b98c9c0aa7eb4d9?s=128&d=identicon&r=PG&f=1",
+            "display_name": "tejoslaeslio",
+            "link": "https://stackoverflow.com/users/9277271/tejoslaeslio"
+        },
+        "is_answered": true,
+        "view_count": 43,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628327333,
+        "accepted_answer_id": 68601468,
+        "answer_count": 1,
+        "score": 3,
+        "last_activity_date": 1627729058,
+        "creation_date": 1627192117,
+        "last_edit_date": 1627725336,
+        "question_id": 68515861,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68515861/laravel-5-8-trying-to-get-property-created-at-of-non-object",
+        "title": "Laravel 5.8: Trying to get property &#39;created_at&#39; of non-object"
+    },
+    {
+        "tags": [
+            "ruby"
+        ],
+        "owner": {
+            "account_id": 3304750,
+            "reputation": 1332,
+            "user_id": 2779926,
+            "user_type": "registered",
+            "accept_rate": 91,
+            "profile_image": "https://i.stack.imgur.com/sgHNZ.png?s=128&g=1",
+            "display_name": "Albert",
+            "link": "https://stackoverflow.com/users/2779926/albert"
+        },
+        "is_answered": true,
+        "view_count": 119,
+        "bounty_amount": 300,
+        "bounty_closes_date": 1628027432,
+        "answer_count": 3,
+        "score": 6,
+        "last_activity_date": 1627728353,
+        "creation_date": 1622468348,
+        "question_id": 67774870,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/67774870/hash-destructuring-in-ruby-3",
+        "title": "Hash destructuring in Ruby 3"
+    },
+    {
+        "tags": [
+            "django",
+            "geodjango",
+            "geos"
+        ],
+        "owner": {
+            "account_id": 18348932,
+            "reputation": 55,
+            "user_id": 15140000,
+            "user_type": "registered",
+            "profile_image": "https://www.gravatar.com/avatar/899f68020338015140f787c566ce5cf8?s=128&d=identicon&r=PG&f=1",
+            "display_name": "user74934",
+            "link": "https://stackoverflow.com/users/15140000/user74934"
+        },
+        "is_answered": false,
+        "view_count": 43,
+        "bounty_amount": 100,
+        "bounty_closes_date": 1628080387,
+        "answer_count": 1,
+        "score": 1,
+        "last_activity_date": 1627727596,
+        "creation_date": 1622185579,
+        "last_edit_date": 1622214414,
+        "question_id": 67734291,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/67734291/geodjango-how-to-create-a-circle-anywhere-on-earth-based-on-point-and-radius",
+        "title": "GeoDjango: How to create a circle anywhere on earth based on point and radius?"
+    },
+    {
+        "tags": [
+            "javascript",
+            "react-native",
+            "error-handling"
+        ],
+        "owner": {
+            "account_id": 60131,
+            "reputation": 219764,
+            "user_id": 179736,
+            "user_type": "registered",
+            "accept_rate": 81,
+            "profile_image": "https://www.gravatar.com/avatar/e77327f7ef0c6213525de4dcea19b200?s=128&d=identicon&r=PG",
+            "display_name": "TIMEX",
+            "link": "https://stackoverflow.com/users/179736/timex"
+        },
+        "is_answered": false,
+        "view_count": 33,
+        "bounty_amount": 500,
+        "bounty_closes_date": 1628276125,
+        "answer_count": 2,
+        "score": -1,
+        "last_activity_date": 1627726990,
+        "creation_date": 1627318359,
+        "question_id": 68533702,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68533702/how-do-i-gracefully-prevent-crashes-in-react-native",
+        "title": "How do I gracefully prevent crashes in react native?"
+    },
+    {
+        "tags": [
+            "amazon-web-services",
+            "apache-spark",
+            "gradle",
+            "amazon-emr"
+        ],
+        "owner": {
+            "account_id": 115919,
+            "reputation": 38064,
+            "user_id": 304151,
+            "user_type": "registered",
+            "accept_rate": 81,
+            "profile_image": "https://i.stack.imgur.com/98pQN.jpg?s=128&g=1",
+            "display_name": "Mridang Agarwalla",
+            "link": "https://stackoverflow.com/users/304151/mridang-agarwalla"
+        },
+        "is_answered": false,
+        "view_count": 56,
+        "bounty_amount": 250,
+        "bounty_closes_date": 1628330970,
+        "answer_count": 1,
+        "score": 2,
+        "last_activity_date": 1627726170,
+        "creation_date": 1626181239,
+        "question_id": 68362933,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68362933/what-dependencies-should-be-included-when-deploying-a-spark-application-to-emr-6",
+        "title": "What dependencies should be included when deploying a Spark application to EMR 6.x?"
+    },
+    {
+        "tags": [
+            "react-native",
+            "realm",
+            "react-native-android",
+            "realm-js"
+        ],
+        "owner": {
+            "account_id": 14479437,
+            "reputation": 1166,
+            "user_id": 10459133,
+            "user_type": "registered",
+            "profile_image": "https://www.gravatar.com/avatar/abf9f75a18cd0a599949271e9653dea5?s=128&d=identicon&r=PG&f=1",
+            "display_name": "Jim",
+            "link": "https://stackoverflow.com/users/10459133/jim"
+        },
+        "is_answered": false,
+        "view_count": 49,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1627919279,
+        "answer_count": 1,
+        "score": 0,
+        "last_activity_date": 1627725750,
+        "creation_date": 1627071240,
+        "last_edit_date": 1627437961,
+        "question_id": 68504615,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68504615/how-to-fix-realmobject-cannot-be-called-as-a-function-realm-js-error",
+        "title": "How to fix &#39;RealmObject cannot be called as a function&#39; realm-js error?"
+    },
+    {
+        "tags": [
+            "python-3.x",
+            "secret-key"
+        ],
+        "owner": {
+            "account_id": 2197267,
+            "reputation": 631,
+            "user_id": 1942603,
+            "user_type": "registered",
+            "accept_rate": 91,
+            "profile_image": "https://www.gravatar.com/avatar/000d3f5089feca9226a46f8e1eba1bf0?s=128&d=identicon&r=PG",
+            "display_name": "Joshua Snider",
+            "link": "https://stackoverflow.com/users/1942603/joshua-snider"
+        },
+        "is_answered": false,
+        "view_count": 18,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628329758,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1627724958,
+        "creation_date": 1627537456,
+        "question_id": 68570656,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68570656/running-test-code-on-server-without-access-to-secrets",
+        "title": "Running Test Code on Server without access to Secrets"
+    },
+    {
+        "tags": [
+            "next.js"
+        ],
+        "owner": {
+            "account_id": 15190193,
+            "reputation": 529,
+            "user_id": 10961055,
+            "user_type": "registered",
+            "profile_image": "https://lh5.googleusercontent.com/-2d3pz5Lkshk/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQP0zFup-1IHpdKenB2XilnuO8nCjQ/mo/photo.jpg?sz=128",
+            "display_name": "Wael Zoaiter",
+            "link": "https://stackoverflow.com/users/10961055/wael-zoaiter"
+        },
+        "is_answered": false,
+        "view_count": 34,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628319564,
+        "answer_count": 1,
+        "score": 0,
+        "last_activity_date": 1627723033,
+        "creation_date": 1627333218,
+        "last_edit_date": 1627648924,
+        "question_id": 68536272,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68536272/next-js-amp-hybrid-pages-return-404",
+        "title": "Next js - AMP hybrid pages return 404"
+    },
+    {
+        "tags": [
+            "flutter"
+        ],
+        "owner": {
+            "account_id": 2117241,
+            "reputation": 5551,
+            "user_id": 2022751,
+            "user_type": "registered",
+            "accept_rate": 89,
+            "profile_image": "https://i.stack.imgur.com/oZvCb.jpg?s=128&g=1",
+            "display_name": "FloatingRock",
+            "link": "https://stackoverflow.com/users/2022751/floatingrock"
+        },
+        "is_answered": true,
+        "view_count": 96,
+        "bounty_amount": 200,
+        "bounty_closes_date": 1627834625,
+        "answer_count": 1,
+        "score": 2,
+        "last_activity_date": 1627722847,
+        "creation_date": 1627050478,
+        "last_edit_date": 1627722847,
+        "question_id": 68500820,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68500820/streambuilder-not-refreshing-after-asyncmap-future-resolves",
+        "title": "StreamBuilder not refreshing after asyncMap future resolves"
+    },
+    {
+        "tags": [
+            "python",
+            "vsphere"
+        ],
+        "owner": {
+            "account_id": 3030486,
+            "reputation": 682,
+            "user_id": 2569618,
+            "user_type": "registered",
+            "accept_rate": 57,
+            "profile_image": "https://i.stack.imgur.com/IScoG.jpg?s=128&g=1",
+            "display_name": "user2569618",
+            "link": "https://stackoverflow.com/users/2569618/user2569618"
+        },
+        "is_answered": false,
+        "view_count": 50,
+        "bounty_amount": 100,
+        "bounty_closes_date": 1628124316,
+        "answer_count": 0,
+        "score": 0,
+        "last_activity_date": 1627720958,
+        "creation_date": 1627346307,
+        "last_edit_date": 1627720958,
+        "question_id": 68537695,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68537695/how-to-add-a-disk-to-vm-when-cloning-from-a-template",
+        "title": "How to add a disk to VM when cloning from a template?"
+    },
+    {
+        "tags": [
+            "python",
+            "django",
+            "celery"
+        ],
+        "owner": {
+            "account_id": 13507822,
+            "reputation": 65,
+            "user_id": 9745220,
+            "user_type": "registered",
+            "profile_image": "https://lh3.googleusercontent.com/-eX_KSHLmXes/AAAAAAAAAAI/AAAAAAAAAHA/u5AwUyNvfag/photo.jpg?sz=128",
+            "display_name": "user9745220",
+            "link": "https://stackoverflow.com/users/9745220/user9745220"
+        },
+        "is_answered": false,
+        "view_count": 111,
+        "bounty_amount": 150,
+        "bounty_closes_date": 1627907354,
+        "answer_count": 2,
+        "score": 3,
+        "last_activity_date": 1627720387,
+        "creation_date": 1627042096,
+        "question_id": 68498955,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68498955/python-calculate-time-between-current-time-and-last-login-automated-communica",
+        "title": "Python: Calculate time between current time and last login. (Automated Communication)"
+    },
+    {
+        "tags": [
+            "javascript",
+            "bootstrap-5"
+        ],
+        "owner": {
+            "account_id": 6649882,
+            "reputation": 44,
+            "user_id": 5132452,
+            "user_type": "registered",
+            "accept_rate": 61,
+            "profile_image": "https://www.gravatar.com/avatar/a1dfe5fa5477d547400392fdfc840d1b?s=128&d=identicon&r=PG&f=1",
+            "display_name": "Rob",
+            "link": "https://stackoverflow.com/users/5132452/rob"
+        },
+        "is_answered": false,
+        "view_count": 62,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628009909,
+        "answer_count": 1,
+        "score": -1,
+        "last_activity_date": 1627719162,
+        "creation_date": 1627230964,
+        "question_id": 68520579,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68520579/bootstrap-5-dropdown-only-active-above-parent-element",
+        "title": "Bootstrap 5 dropdown only active above parent element"
+    },
+    {
+        "tags": [
+            "javascript",
+            "babeljs",
+            "babel-polyfill",
+            "core-js",
+            "gulp-babel"
+        ],
+        "owner": {
+            "account_id": 3406996,
+            "reputation": 177,
+            "user_id": 2857833,
+            "user_type": "registered",
+            "accept_rate": 60,
+            "profile_image": "https://graph.facebook.com/100000420551619/picture?type=large",
+            "display_name": "Emilia Heller-Mrotek",
+            "link": "https://stackoverflow.com/users/2857833/emilia-heller-mrotek"
+        },
+        "is_answered": true,
+        "view_count": 291,
+        "bounty_amount": 250,
+        "bounty_closes_date": 1628183167,
+        "accepted_answer_id": 65082289,
+        "answer_count": 1,
+        "score": 1,
+        "last_activity_date": 1627715344,
+        "creation_date": 1606742895,
+        "last_edit_date": 1627715344,
+        "question_id": 65074497,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/65074497/gulp-babel-polyfill-promises-for-ie11-issue",
+        "title": "Gulp &amp; Babel polyfill Promises for IE11 issue"
+    },
+    {
+        "tags": [
+            "python",
+            "rss",
+            "feedparser"
+        ],
+        "owner": {
+            "account_id": 318707,
+            "reputation": 6623,
+            "user_id": 636064,
+            "user_type": "registered",
+            "accept_rate": 93,
+            "profile_image": "https://www.gravatar.com/avatar/2546fa0a559ac5573ac89fe16883aca8?s=128&d=identicon&r=PG",
+            "display_name": "Brenden",
+            "link": "https://stackoverflow.com/users/636064/brenden"
+        },
+        "is_answered": false,
+        "view_count": 27,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628062715,
+        "answer_count": 2,
+        "score": 0,
+        "last_activity_date": 1627712883,
+        "creation_date": 1627240815,
+        "last_edit_date": 1627264556,
+        "question_id": 68521843,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68521843/accessing-duplicate-feed-tags-using-feedparser",
+        "title": "Accessing duplicate feed tags using feedparser"
+    },
+    {
+        "tags": [
+            "solr",
+            "fuzzy-search"
+        ],
+        "owner": {
+            "account_id": 292318,
+            "reputation": 264,
+            "user_id": 595014,
+            "user_type": "registered",
+            "accept_rate": 83,
+            "profile_image": "https://www.gravatar.com/avatar/c660250ceddd9ff322b43d46eb517b89?s=128&d=identicon&r=PG",
+            "display_name": "user595014",
+            "link": "https://stackoverflow.com/users/595014/user595014"
+        },
+        "is_answered": false,
+        "view_count": 71,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1627906669,
+        "answer_count": 1,
+        "score": 0,
+        "last_activity_date": 1627711868,
+        "creation_date": 1627040516,
+        "last_edit_date": 1627369473,
+        "question_id": 68498583,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68498583/apache-solr-fuzzy-search-on-list-values",
+        "title": "Apache solr fuzzy search on list values"
+    },
+    {
+        "tags": [
+            "postman"
+        ],
+        "owner": {
+            "account_id": 6412677,
+            "reputation": 1683,
+            "user_id": 4971859,
+            "user_type": "registered",
+            "accept_rate": 30,
+            "profile_image": "https://i.stack.imgur.com/C4KE3.png?s=128&g=1",
+            "display_name": "Steve",
+            "link": "https://stackoverflow.com/users/4971859/steve"
+        },
+        "is_answered": false,
+        "view_count": 38,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1628078764,
+        "answer_count": 1,
+        "score": 0,
+        "last_activity_date": 1627709510,
+        "creation_date": 1627295974,
+        "question_id": 68528426,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68528426/how-to-post-an-object-in-postman-without-frombody",
+        "title": "How to post an object in postman without FromBody?"
+    },
+    {
+        "tags": [
+            "c++",
+            "vulkan"
+        ],
+        "owner": {
+            "account_id": 19388645,
+            "reputation": 37,
+            "user_id": 14177858,
+            "user_type": "registered",
+            "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GhSti-FRb2o3WB8Q-K5RNZslmg2cK-vNbFri_iQ=k-s128",
+            "display_name": "Braden Yonano",
+            "link": "https://stackoverflow.com/users/14177858/braden-yonano"
+        },
+        "is_answered": false,
+        "view_count": 103,
+        "bounty_amount": 50,
+        "bounty_closes_date": 1627868679,
+        "answer_count": 0,
+        "score": 2,
+        "last_activity_date": 1627704098,
+        "creation_date": 1624504357,
+        "last_edit_date": 1627704098,
+        "question_id": 68109171,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/68109171/vkenumeratephysicaldevices-not-finding-all-gpus",
+        "title": "vkEnumeratePhysicalDevices() not finding all GPUs"
+    }
+]
