@@ -2,11 +2,13 @@ import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { loginDataSchema } from '../../../validations/loginValidation';
 import FieldError from '../../../validations/FieldError';
-import { TextField, Button } from '@material-ui/core';
+import { Button, Typography } from '@material-ui/core';
+import TextFieldInput from './TextFieldInput';
+import '../../../sassStyles/login-form.scss';
 
 function LoginForm() {
     return (
-        <>
+        <div>
             <Formik initialValues={{
                 email: "",
                 password: ""
@@ -16,19 +18,21 @@ function LoginForm() {
                 }}
                 validationSchema={loginDataSchema}
             >
-                <Form>
-                    <div>
-                        <Field name='email' type="input" as={TextField} autoComplete="off" />
+                <Form className="login-form">
+                    <div className="login-form-field">
+                        <Typography variant="body2">Email</Typography>
+                        <Field name='email' type="input" as={TextFieldInput} autoComplete="off" />
                         <ErrorMessage name='email' component={FieldError} />
                     </div>
-                    <div>
-                        <Field name='password' type="password" as={TextField} />
+                    <div className="login-form-field">
+                        <Typography variant="body2">Password</Typography>
+                        <Field name='password' type="password" as={TextFieldInput} />
                         <ErrorMessage name='password' component={FieldError} />
                     </div>
-                    <Button type="submit" variant="outlined">Submit</Button>
+                    <Button type="submit" variant="contained" style={{ margin: '3vh', marginTop: '1vh', width: '80%' }}>Login</Button>
                 </Form>
             </Formik>
-        </>
+        </div >
     )
 }
 
