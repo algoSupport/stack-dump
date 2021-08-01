@@ -10,9 +10,9 @@ function Featured(props) {
 
     // Reading from local to not hit API rate limits
     const importQnsFromFile = async () => {
-        const response = await fetch('http://localhost:3000/sample_questions.txt');
+        const response = await fetch('http://localhost:3000/sample_featured.txt');
         const data = await response.json();
-        setQuestions(data);
+        setQuestions(data.items);
     }
 
     useEffect(() => {
