@@ -4,7 +4,7 @@ import { Typography } from '@material-ui/core';
 function FieldError(props) {
     return (
         <div className='field-error' style={{ color: 'red' }}>
-            <Typography variant="body2">{props.children}</Typography>
+            <Typography variant="body2" style={{ fontSize: '0.7rem' }}>{props.children}</Typography>
         </div>
     );
 }

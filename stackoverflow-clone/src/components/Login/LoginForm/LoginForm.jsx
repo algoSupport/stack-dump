@@ -5,8 +5,11 @@ import FieldError from '../../../validations/FieldError';
 import { Button, Typography } from '@material-ui/core';
 import TextFieldInput from './TextFieldInput';
 import '../../../sassStyles/login-form.scss';
+import { useHistory } from 'react-router';
 
 function LoginForm() {
+    const history = useHistory();
+
     return (
         <>
             <Formik initialValues={{
@@ -14,7 +17,7 @@ function LoginForm() {
                 password: ""
             }}
                 onSubmit={(data) => {
-                    console.log(data);
+                    history.push('/featured');
                 }}
                 validationSchema={loginDataSchema}
             >

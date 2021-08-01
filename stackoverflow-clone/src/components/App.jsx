@@ -9,7 +9,7 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route path='/login' component={Login} />
+                <Route path='/' exact component={Login} />
                 <Route path='/featured' component={Featured} />
                 <Route path='/users/:userId' component={UserProfile} />
             </Switch>
