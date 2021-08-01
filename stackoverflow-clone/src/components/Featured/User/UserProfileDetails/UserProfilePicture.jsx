@@ -7,7 +7,7 @@ function UserProfilePicture(props) {
         <div>
             <div className="user-profile-picture-container" style={{ display: 'inline-block', margin: '2vh', backgroundColor: '#eff0f1', padding: '2vh', border: '1px solid #d6d9dc' }}>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    <img src={props.pictureUrl} style={{ margin: '1vh' }} />
+                    <img src={props.pictureUrl} style={{ margin: '1vh' }} alt="avatar" />
                     <div className="user-profile-reputation" style={{ display: 'flex', justifyContent: 'center' }}>
                         <Typography variant="h5" style={{ marginRight: '1vh' }}>
                             {props.reputation}

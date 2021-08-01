@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Divider } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 
 function UserTags(props) {
     const maxTags = props.tags.length > 5 ? 5 : props.tags.length;

@@ -41,7 +41,7 @@ function UserQuestions(props) {
                     return (
                         <>
                             <Divider />
-                            <div className="user-profile-inner-qn-container" style={{}}>
+                            <div className="user-profile-inner-qn-container">
                                 <div className="user-profile-qn-answer-box" style={{ display: 'inline', margin: '1vh', padding: '1vh 2vh 1vh 2vh', ...getExtraStyles(question) }}>
                                     {question.score}
                                 </div>
