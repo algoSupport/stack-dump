@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Divider, Typography } from '@material-ui/core';
 import { fetchUserById, fetchQuestionsById, fetchTagsById } from '../../../services/user-service';
+import Loading from '../../Loading';
 import UserProfileBiography from './UserProfileDetails/UserProfileBiography.jsx';
 import UserProfilePicture from './UserProfileDetails/UserProfilePicture.jsx';
 import UserTags from './UserProfileDetails/UserTags';
@@ -10,6 +11,7 @@ import '../../../sassStyles/user-profile.scss'
 
 function UserProfile(props) {
     const { userId } = useParams();
+    const [loaded, setLoaded] = useState(false);
     const [userProfileData, setUserProfileData] = useState(null);
     const [userTopTags, setUserTopTags] = useState(null);
     const [userTopQuestions, setUserTopQuestions] = useState(null);
@@ -48,8 +50,14 @@ function UserProfile(props) {
         )();
     }, [])
 
+    useEffect(() => {
+        if (userProfileData != null && userTopQuestions != null && userTopTags != null) {
+            setLoaded(true);
+        }
+    }, [userProfileData, userTopQuestions, userTopTags])
+
     return (
-        <div className="user-profile-container-main" style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
+        loaded ? <div className="user-profile-container-main" style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
             <div className="user-profile-outer-container">
                 <Typography variant="h4" style={{ margin: '2vh' }}>User's profile</Typography>
                 <Divider />
@@ -73,6 +81,7 @@ function UserProfile(props) {
                 <UserQuestions questions={userTopQuestions != null ? userTopQuestions.items : []} />
             </div>
         </div>
+            : <Loading />
     );
 }
 
