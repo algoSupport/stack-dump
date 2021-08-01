@@ -1,6 +1,6 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { loginDataSchema } from '../../../validations/loginValidation';
+import { loginDataSchema } from '../../../validations/login-validation';
 import FieldError from '../../../validations/FieldError';
 import { Button, Typography } from '@material-ui/core';
 import TextFieldInput from './TextFieldInput';
