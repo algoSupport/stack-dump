@@ -37,7 +37,7 @@ function Question(props) {
                             {
                                 props.question.tags.map(tag => {
                                     return (
-                                        <Tag tag={tag} />
+                                        <Tag tag={tag} key={tag} />
                                     )
                                 })
                             }

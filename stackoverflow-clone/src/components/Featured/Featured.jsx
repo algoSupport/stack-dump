@@ -34,7 +34,7 @@ function Featured(props) {
                     <Typography variant="h3" style={{ margin: '2vh' }}>Top Questions</Typography>
                     {
                         questions.map((question) => {
-                            return (<Question question={question} />);
+                            return (<Question question={question} key={question.title} />);
                         })
                     }
                 </div>

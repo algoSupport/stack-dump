@@ -8,7 +8,7 @@ function UserTags(props) {
             <Typography variant="h5">Top tags</Typography>
             {props.tags.slice(0, maxTags).map((tag) => {
                 return (
-                    <div style={{ display: 'inline-block', backgroundColor: '#fafafb', margin: '1vh' }}>
+                    <div style={{ display: 'inline-block', backgroundColor: '#fafafb', margin: '1vh' }} key={tag.name}>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                             <div style={{ backgroundColor: '#d1e5f1', display: 'inline', padding: '1vh', margin: '1vh', color: '#0077cc' }}>
                                 {tag.name}

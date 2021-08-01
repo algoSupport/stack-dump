@@ -48,7 +48,7 @@ function UserProfile(props) {
             setUserTopTags(tagsByIdData);
         }
         )();
-    }, [])
+    }, [userId])
 
     useEffect(() => {
         if (userProfileData != null && userTopQuestions != null && userTopTags != null) {

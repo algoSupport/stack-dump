@@ -45,7 +45,7 @@ function UserQuestions(props) {
                                 <div className="user-profile-qn-answer-box" style={{ display: 'inline', margin: '1vh', padding: '1vh 2vh 1vh 2vh', ...getExtraStyles(question) }}>
                                     {question.score}
                                 </div>
-                                <div className="user-profile-qn-title" style={{ display: 'inline', margin: '1vh' }}>
+                                <div className="user-profile-qn-title" style={{ display: 'inline', margin: '1vh' }} >
                                     <Typography variant="body2" style={{ display: 'inline', color: '#008cdb' }}>{question.title}</Typography>
                                 </div>
                             </div>
