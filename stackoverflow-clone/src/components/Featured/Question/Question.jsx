@@ -3,6 +3,7 @@ import { Typography, Divider } from '@material-ui/core';
 import DetailsBox from './QuestionDetails/QuestionDetailsBox.jsx';
 import Tag from './QuestionDetails/QuestionTag.jsx';
 import Owner from './QuestionDetails/QuestionOwner.jsx';
+import { decodeHtmlEntity } from '../../../utils/stack-utils.js';
 
 function Question(props) {
     return (
@@ -24,7 +25,7 @@ function Question(props) {
                         </Typography>
                     </div>
                     <Typography variant="h5" style={{ display: 'inline', margin: '2vh', marginLeft: '0.5vh' }}>
-                        {props.question.title}
+                        {decodeHtmlEntity(props.question.title)}
                     </Typography>
                     <div className='question-sub-details' style={{
                         display: 'flex',

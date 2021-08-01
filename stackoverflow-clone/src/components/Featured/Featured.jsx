@@ -17,9 +17,9 @@ function Featured(props) {
 
     useEffect(() => {
         (async function () {
-            importQnsFromFile();
-            // const questionsData = await fetchQuestions();
-            // setQuestions(questionsData.items);
+            //importQnsFromFile();
+            const questionsData = await fetchQuestions();
+            setQuestions(questionsData.items);
         })();
     }, []);
 

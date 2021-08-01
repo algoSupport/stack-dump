@@ -4,12 +4,13 @@ import moment from 'moment';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import LanguageIcon from '@material-ui/icons/Language';
 import RestoreIcon from '@material-ui/icons/Restore';
+import { decodeHtmlEntity } from '../../../../utils/stack-utils';
 
 function UserProfileBiography(props) {
     return (
         <div style={{ margin: '2vh', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
             <div>
-                <Typography variant="h5" style={{ marginBottom: '2vh' }}>{props.username}</Typography>
+                <Typography variant="h5" style={{ marginBottom: '2vh' }}>{decodeHtmlEntity(props.username)}</Typography>
             </div>
             <div>
                 {props.location && <><LocationOnIcon style={{ display: 'inline', fontSize: '0.8rem', marginRight: '1vh', color: '#6a737c' }} />
