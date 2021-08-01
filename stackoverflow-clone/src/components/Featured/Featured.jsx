@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 import Question from './Question/Question.jsx';
 import { Typography } from '@material-ui/core';
 import { fetchQuestions } from '../../services/question-service.js';
 import '../../sassStyles/featured-questions.scss';
 
 function Featured(props) {
-
+    const history = useHistory();
     const [questions, setQuestions] = useState([]);
 
     // Reading from local to not hit API rate limits
@@ -18,8 +19,15 @@ function Featured(props) {
     useEffect(() => {
         (async function () {
             //importQnsFromFile();
-            const questionsData = await fetchQuestions();
-            setQuestions(questionsData.items);
+            let questionsData = {};
+            try {
+                questionsData = await fetchQuestions();
+                setQuestions(questionsData.items);
+            }
+            catch (err) {
+                console.log("An error occurred while fetching featured questions:", err.toString());
+                history.push('/error')
+            }
         })();
     }, []);
 

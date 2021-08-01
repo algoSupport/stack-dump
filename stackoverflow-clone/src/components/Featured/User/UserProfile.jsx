@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
 import { Divider, Typography } from '@material-ui/core';
 import { fetchUserById, fetchQuestionsById, fetchTagsById } from '../../../services/user-service';
 import Loading from '../../Loading';
@@ -10,6 +10,7 @@ import UserQuestions from './UserProfileDetails/UserQuestions';
 import '../../../sassStyles/user-profile.scss'
 
 function UserProfile(props) {
+    const history = useHistory();
     const { userId } = useParams();
     const [loaded, setLoaded] = useState(false);
     const [userProfileData, setUserProfileData] = useState(null);
@@ -37,15 +38,22 @@ function UserProfile(props) {
     useEffect(() => {
         (async function () {
             //importProfileFromFile();
-            const userByIdData = await fetchUserById(userId);
-            console.log('userByIdData', userByIdData);
-            const questionsByIdData = await fetchQuestionsById(userId);
-            console.log('questionsByIdData', questionsByIdData);
-            const tagsByIdData = await fetchTagsById(userId);
-            console.log('tagsByIdData', tagsByIdData);
-            setUserProfileData(userByIdData.items[0]);
-            setUserTopQuestions(questionsByIdData);
-            setUserTopTags(tagsByIdData);
+            try {
+                const userByIdData = await fetchUserById(userId);
+                console.log('userByIdData', userByIdData);
+                const questionsByIdData = await fetchQuestionsById(userId);
+                console.log('questionsByIdData', questionsByIdData);
+                const tagsByIdData = await fetchTagsById(userId);
+                console.log('tagsByIdData', tagsByIdData);
+                setUserProfileData(userByIdData.items[0]);
+                setUserTopQuestions(questionsByIdData);
+                setUserTopTags(tagsByIdData);
+            }
+            catch (err) {
+                console.log("An error occurred while fetching user data:", err.toString());
+                history.push('/error');
+            }
+
         }
         )();
     }, [userId])
