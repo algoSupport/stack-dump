@@ -8,7 +8,7 @@ import '../../../sassStyles/login-form.scss';
 
 function LoginForm() {
     return (
-        <div>
+        <>
             <Formik initialValues={{
                 email: "",
                 password: ""
@@ -29,10 +29,16 @@ function LoginForm() {
                         <Field name='password' type="password" as={TextFieldInput} />
                         <ErrorMessage name='password' component={FieldError} />
                     </div>
-                    <Button type="submit" variant="contained" style={{ margin: '3vh', marginTop: '1vh', width: '80%' }}>Login</Button>
+                    <Button type="submit" variant="contained" style={{
+                        margin: '3vh',
+                        marginTop: '1vh',
+                        width: '80%',
+                        backgroundColor: '#1286af',
+                        color: 'white'
+                    }}>Login</Button>
                 </Form>
             </Formik>
-        </div >
+        </>
     )
 }
 

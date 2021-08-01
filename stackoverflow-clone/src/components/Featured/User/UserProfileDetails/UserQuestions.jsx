@@ -14,6 +14,14 @@ function UserQuestions(props) {
                 borderRadius: '5px'
             }
         }
+        else {
+            extraStyles = {
+                ...extraStyles,
+                border: '1px solid #9fa6ad',
+                color: '#9fa6ad',
+                borderRadius: '5px'
+            }
+        }
 
         if (question.accepted_answer_id) {
             extraStyles = {
