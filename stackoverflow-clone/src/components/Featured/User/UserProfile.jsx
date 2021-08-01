@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Divider, Typography } from '@material-ui/core';
-import { fetchUserById } from '../../../services/user-service';
+import { fetchUserById, fetchQuestionsById, fetchTagsById } from '../../../services/user-service';
 import UserProfileBiography from './UserProfileDetails/UserProfileBiography.jsx';
 import UserProfilePicture from './UserProfileDetails/UserProfilePicture.jsx';
 import UserTags from './UserProfileDetails/UserTags';
@@ -34,16 +34,22 @@ function UserProfile(props) {
 
     useEffect(() => {
         (async function () {
-            importProfileFromFile();
-            // const fetchUserByIdData = await fetchUserById(userId);
-            // console.log('fetchUserByIdData', fetchUserByIdData);
-            // setUserProfileData(fetchUserByIdData.items[0]);
+            //importProfileFromFile();
+            const userByIdData = await fetchUserById(userId);
+            console.log('userByIdData', userByIdData);
+            const questionsByIdData = await fetchQuestionsById(userId);
+            console.log('questionsByIdData', questionsByIdData);
+            const tagsByIdData = await fetchTagsById(userId);
+            console.log('tagsByIdData', tagsByIdData);
+            setUserProfileData(userByIdData.items[0]);
+            setUserTopQuestions(questionsByIdData);
+            setUserTopTags(tagsByIdData);
         }
         )();
     }, [])
 
     return (
-        <div className="user-profile-container-main" style={{ display: 'flex', justifyContent: 'center', height: '100%', borderRight: '1px solid black', borderLeft: '1px solid black' }}>
+        <div className="user-profile-container-main" style={{ display: 'flex', justifyContent: 'center', height: '100%' }}>
             <div className="user-profile-outer-container">
                 <Typography variant="h4" style={{ margin: '2vh' }}>User's profile</Typography>
                 <Divider />
